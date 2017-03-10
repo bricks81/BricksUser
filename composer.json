@@ -1,0 +1,23 @@
+{
+    "name": "bricks81/bricks-user",
+    "description": "Bricks CMS Framework - User",
+    "license": "MIT",
+    "keywords": [
+        "bricks",
+        "user"
+    ],
+    "homepage": "https://www.bricks-cms.org",
+    "autoload": {
+        "psr-4": {
+            "Bricks\\User\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+        "bricks81/bricks-config": "*",
+       	"bricks81/bricks-loader": "*",
+        "bricks81/bricks-model": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": false    
+}
