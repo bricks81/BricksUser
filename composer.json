@@ -14,9 +14,12 @@
     },
     "require": {
         "php": "^7.0",
+        "zendframework/zend-modulemanager":"*",
+        "zendframework/zend-mvc": "*",
         "bricks81/bricks-config": "*",
        	"bricks81/bricks-loader": "*",
-        "bricks81/bricks-model": "*"
+        "bricks81/bricks-model": "*",
+        "bricks81/bricks-translate": "*"
     },
     "minimum-stability": "dev",
     "prefer-stable": false    
